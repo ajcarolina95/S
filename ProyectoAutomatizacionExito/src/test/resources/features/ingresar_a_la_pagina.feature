@@ -8,8 +8,8 @@ Característica: Ingresar a la pagina deseada
 
   @tag1
   Escenario: Ingresar a la página del exito
-  Dado que yo abro el navegador
-  Cuando ingreso el link del exito
+  Dado que Carolina abre el navegador
+  Cuando Carolina ingresa el link del exito
   Entonces debería visualizar la pagina de inicio
   
   
