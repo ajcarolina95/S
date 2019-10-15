@@ -24,18 +24,9 @@ public class IngresarALaPaginaStepDefinitions {
 		OnStage.setTheStage(new OnlineCast());
 	}
 	
-	   @Dado("^que (.*) abre el navegador$")
+	   @Dado("^que (.*) abre la pagina del exito$")
 	   public void queCarolinaAbreElNavegador(String actor) {
 		   OnStage.theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExtio());
 	      }
-
-	   @Cuando("^Carolina ingresa el link del exito$")
-	   public void carolinaIngresaElLinkDelExito() {
-	 
-	   }
-
-		@Entonces("^debería visualizar la pagina de inicio$")
-		public void deberiaVisualizarLaPaginaDeInicio() {
-		}
 
 }
