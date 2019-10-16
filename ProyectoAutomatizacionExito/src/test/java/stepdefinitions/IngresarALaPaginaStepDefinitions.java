@@ -1,32 +1,39 @@
 package stepdefinitions;
 
-import org.openqa.selenium.WebDriver;
-
 import cucumber.api.java.Before;
 import cucumber.api.java.ast.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.actors.OnStage;
+
+import static net.serenitybdd.screenplay.actors.OnStage.*;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import net.thucydides.core.annotations.Managed;
-import tasks.IngresarALaPaginaInicial;
-import userinterface.AbrirNavegador;
-
-
+import tasks.*;
 
 public class IngresarALaPaginaStepDefinitions {
 	
 	@Before 
 	public void inicio() {
-		OnStage.setTheStage(new OnlineCast());
+		setTheStage(new OnlineCast());
 	}
 	
-	   @Dado("^que (.*) abre la pagina del exito$")
-	   public void queCarolinaAbreElNavegador(String actor) {
-		   OnStage.theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExtio());
-	      }
+	@Dado("^que (.*) abre la pagina del exito$")
+	public void queCarolinaAbreElNavegador(String actor) {
+		theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExito());
+	}
 
+	@Cuando("^busca la nevera que desea$")
+	public void buscaLaNeveraQueDesea() {
+		theActorInTheSpotlight().wasAbleTo(BuscarNevera.EnLaPagina(),
+										   SeleccionarNevera.EnLaPagina());
+	}
+
+	@Cuando("^la agrega al carrito de compras$")
+	public void laAgregaAlCarritoDeCompras() {
+		theActorInTheSpotlight().wasAbleTo(AgregarAlCarrito.EnLaPagina());
+	}
+
+	@Entonces("^verifica que se haya agregado correctamente$")
+	public void verificaQueSeHayaAgregadoCorrectamente() {
+		theActorInTheSpotlight().wasAbleTo(EntrarAlCarrito.EnLaPagina());
+	}
 }

@@ -8,8 +8,8 @@ Característica: Ingresar a la pagina deseada
 
 Antecedentes: Ingresar a la página del exito
   Dado que Carolina abre la pagina del exito
- 
-  Escenario:
-  
-  
-  
+
+Escenario:
+  Cuando busca la nevera que desea
+  Y la agrega al carrito de compras
+  Entonces verifica que se haya agregado correctamente

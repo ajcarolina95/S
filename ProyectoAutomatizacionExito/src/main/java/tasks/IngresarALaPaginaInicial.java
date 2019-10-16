@@ -16,7 +16,7 @@ public class IngresarALaPaginaInicial implements Task {
 		
 	}
 
-	public static IngresarALaPaginaInicial delExtio() {
+	public static IngresarALaPaginaInicial delExito() {
 		
 		return Tasks.instrumented(IngresarALaPaginaInicial.class);
 	}
