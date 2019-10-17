@@ -1,14 +1,13 @@
 #language: es
 #Author: cajaram@bancolombia.com.co
 
-
-@tag
-Característica: Ingresar a la pagina deseada
+CaracterÃ­stica: Ingresar a la pagina deseada
   Yo como usuario quiero abrir el navegador para comprar un producto 
 
-Antecedentes: Ingresar a la página del exito
+Antecedentes: Ingresar a la pagina del exito
   Dado que Carolina abre la pagina del exito
  
+ 	@CompraPortatil
   Escenario:
- 		Cuando se selecciona un producto de tecnologia
- 		Entonces se añade al carrito de compras
+ 		Cuando agrega un producto de tecnologia al carrito de compras
+ 		Entonces se verifica que el producto se annadio al carrito de compras
