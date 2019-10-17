@@ -1,6 +1,5 @@
 package questions;
 
-//import co.com.choucair.proyectobase.userinterfaces.HomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -10,7 +9,9 @@ public class ProductoAnnadido implements Question<String>{
 
 	@Override
 	public String answeredBy(Actor actor) {
+		//Visibility.of(IrAlCarrito.VALOR_TOTAL).viewedBy(actor).asBoolean();		
 		return Text.of(SeleccionarProducto.VALOR_TOTAL).viewedBy(actor).asString();
+		
 	}
 
 	public static ProductoAnnadido alCarrito() {

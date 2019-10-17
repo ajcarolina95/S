@@ -21,12 +21,7 @@ public class SeleccionarProducto extends PageObject {
 	
 	public static final Target CHB_SISTEMA_OPERATIVO = Target.the("CheckBox - Sistema operativo")
 			.located(By.xpath("//input[contains(@id,'Mac%20OS') and contains(@name,'Mac OS')]"));
-	
-	/*
-	public static final Target LBL_FILTRO_PANTALLA = Target.the("Label - Filtro por tamaño de pantalla")
-			.located(By.xpath("//div[contains(@class,'exito-search') and contains(text(),'Tamaño de Pantalla')]"));
-	*/
-	
+		
 	public static final Target PRODUCTO = Target.the("Opci�n selecci�n de producto")
 			.located(By.xpath("//*[contains(@href,'/macbook-12-intel-core-m3-450758/p') and contains(@class,'no-underline')]"));
 	
@@ -37,23 +32,21 @@ public class SeleccionarProducto extends PageObject {
 			.located(By.xpath("(//div[contains(@class,'flex items') and contains(text(),'Agregar')])[1]"));
 	
 	public static final Target MENSAJE_AGREGADO = Target.the("Mensaje de producto a�adido al carrito de compras")
-			.located(By.xpath("//div[contains(@class,'pr5 mw6-ns lh-copy')"));
+			.located(By.xpath("//div[contains(@class,'pr5 mw6-ns lh-copy')]"));
 	
-	public static final Target HEADER = Target.the("Header")
-			.located(By.xpath("//div[@id='headerComponent']"));
+	public static final Target LBL_X = Target.the("Label - X")
+			.located(By.xpath("//p[text()='2018 Éxito ® NIT 890900608-9. Todos los derechos reservados.']"));
+	
 	public static final Target INICIO = Target.the("Inicio")
 			.located(By.xpath("//*[contains(text(),'Inicio')]"));
 	
+	public static final Target HEADER = Target.the("Header")
+			.located(By.xpath("//div [contains(@id,'header') and contains(@class,'exito')]"));
+	 
+	public static final Target IR_AL_CARRITO = Target.the("Ir al carrito")
+			.located(By.xpath("//div[@class='exito-header-2-x-minicartButtonMobile exito-header-2-x-minicartButton']"));
 	
-	public static final Target CARRITO = Target.the("Ir al carrito")
-			.located(By.xpath("//span[text()='Mi carrito']"));
-	
-	public static final Target VALOR_TOTAL = Target.the("Valor total de venta")
+	public static final Target VALOR_TOTAL = Target.the("Valor total de compra")
 			.located(By.xpath("(//td[contains(@class,'monetary') and contains(@data-bind,'totalLabel')])[1]"));
 	
-	
-	//div[@id='header-container']
-	
-
-
 }
