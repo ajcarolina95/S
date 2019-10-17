@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac6c175a-c1b3-4cda-ac09-1f89edd6342c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/BuscarElemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/MoverMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/RecorrerLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interactions/SeleccionarCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ExitoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/VerificarProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/AgregarProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/BuscarProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/VerCarrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/AgregarProductoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/BuscarProductoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/VerCarritoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0253756bf62bb33f41a3ee888ad09a6907ad5539b82d4463ec4262c7f4af7abe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/03716f3dcfeab33ede0502bf1dc20a36ef48084274f3655dcbaa593cc21bf131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/06256328e0eaee1d6fabb095b86ed5c4103790a411e0549298c4724cba11ab16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0724a88a21790940bce32939035f1de172338c97b308e23d0314fb34c2b4f08a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/07e727a822efd5e1992b7be27c89927d15a03068946a134e22c7fc1f0c8bdc84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/096ec00829fe1dd223ad01dd7b3e8b317ee464c198c6cf6aae957576e5f5ed2b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/09df8670c1651fb11454f9df6c67f83e965f55daf1621efbde4f45d97117ee9a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0a64fa7d7d90a287da6af64fdad5f3e5810138d219bbd9e267b4bcc3690114e5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0b4db61d1c0a89c717a972453dd77948901bf850a65118810264feee12885e41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0d25cd301c0f79f60a085ad27366e9c3f1843fa88747faec4f290897c6999dec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/11df46e6151ba5a08f43df62850c03ebeb7b22cc52dc9648c8f60aadb7016ee8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/13bf17fc957e01b5f7210290f35837d786634f27d9142cbd161739224f6256c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/14ba364a7ded1610f908e6fa166061e78abefab2a61c7c488039566a5eba4922.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/14fb3e567bb4bfdbf3dcdf00a11f7f2024cee0429611192ae10fc0407df49082.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/18783faa5c6eb508b7b523577615a8cc0f49b9055066a897474e00616d04d330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1944ed9c1ce3736246e1c4870ec7483f8b1e7f1ce1d1777a89746d79ab619c29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1b13ba74d9d1dc105acf02ab38df0aa7f0479502b7a11ec843a4ff73fdb01d38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1b7fd23903c4224fac0ef1ca3d70d59cdcd1019c17fb4d85031ad66f7fffd882.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1e791c158b26fe3a3936168cde959c32d686f1eb14762ed1f7dce748b7646899.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1f1ddf20391c2353ae143a1a9d46ec015263e35f1c109e13dd909b0c03beae88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/24bd0684206a77828c0978427d3619f2b531519a882964bb18bcbe9e35c00c60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2d6c910807110b3cb8389a1567d6c691726de9b7ead6750c60ef2f6e7e35f832.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2dcfa76586a7ff1e3ed8bfa3b692eebc2479fc37dfff6e1a85c0f4ff063aa979.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/30d001f6a037797831b588d8b08aadc394bb32f8831f72fab3dd55bf7227d066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/30df75ff140762adccc74986617c2e2b0836660ca206a6684264a0d30e580df7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/331b048d5235e6fded4d8551a1818f958d57136d3a973bc7dc6507428adfc65b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/33a2cd73d4d9aac957c48b72c7b5738ceab2f51222419ecf04d009f1254da6a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/36b4e825ad7309530b84e79612d01259fc22ed9b8b1ff6a7a00511a0c8413321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/38e728cb3a875bdc0591d9b8ee50d4ab6ef645ce487d1260fca0cf093e3c273f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/38f79103c445a1cdad1815403d94338270b2ef8ff619160d3f4de864300d69b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3b56dc39c20d6b4ed7a44b40904bd5bb3e16efe7d2b72fab2aa42c82e76477e7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3cbba49a268afde8de30ae5e2ff00aaaa089d3c5cdaa3d3f6e52596282b3d2cb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3d883cf81b6b45d8274c227b237c072f0bd603f4851d3e53747d13ea1454263d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3f397e692f79286d6b5415785bbd54d51a0b59ecfe4fb6b8c14c77f51471c010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3f4e43ebca19b953c1e49bc22b87d64b69ba541758121faa83fee1879328bfb9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/3fbd6ab4000cca8cef01527a062281b6f834d45088537e7bb4ec6b562fdd110a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/415b4850cdc70c1bf8fb2606a2004dd6406203c5564f7ff9fa6afc898046d717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/417c0d2865450191eca87ddf153cfbb59cd3b2282c28956ed6e83cf23d7b1152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/44b0aff74ef40944ab102c148547ee180cfed4ba90ba6ee0e183e62b28bc846a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4575fed21b606cf37399fbbe3dc19b2dd938d39cc60c4de3dc956cc8a8d45874.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/45b56c54bbbb0f05d3efa19d2b12999d6267e6474de4fbc666d45d28d3afbe05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4c0ba1695dc17c50c401e32bfdc5f00e362e9783c2451fd56605dc903abd37ff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4d725501e412f129a53b65641e1ae3c1be3fc744a4f6e894c77b3aab6f051779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4e4bf2cf1f56f5ffb5b02a30801965276c4af608cd6c406f6c10d428ae93dbf4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4edd23e6046d65224107cdc0684499da6d387eba5e9b4624fad6ec63ab48144e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/536bf99f4b1ff25eca74d8ecd8c7a66c3af2101e58d4be3d6cef9108cd450361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/58ede740f2cab2250fa86684e473c6bb7d2c0e9f0ac5da19e98aff6daa2d6dd3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5a1928c1b23046ecd9941dcbea772cf3caac3a09ddac37035bd5abc373b499c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/5e6ce2e5f6026912f54120abf4dccc2e4b465c2d42508ce6bd37c0981f8fb103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/60073b29619ab32f2a8345fe54c19837a57a07afd79e941e137b26fe2d630e18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6393b2e4051a6b7450355160ec29604f7e01ce004ba967db8e272b70aa2175d3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6393b2e4051a6b7450355160ec29604f7e01ce004ba967db8e272b70aa2175d3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/64b352433d191bdb449b833a7900859c44254f91119f874520f557e3492b0a6c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/673fcb84dc7f8b56a78cb17e905440f3df981505a6c36dce24bd2702807de359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/69391597f13901a4595a244bbd72c49bb51b92017fea147feae64fdbaf2c5884.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6a7227d88a86d722fbf7a89d22aad43915c305e8b417737d0ccdfa9ba7a86724.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6cc0ae9cd1ad86c15fbfe6a5b622c87f5a449fd8bbe26a5ded61833607ed8089.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6dab4ffea975d44c30865a1c4af809b963191f7cd8ae0d13ed30f3d66992d742.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6dc7b678a5606b2dc1d64548fcf53e5a3a00205e54e4c47210deadc2fbaa90ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/71b3519e058eb6d71cc8851bbb3c993b162af616e8f3226fc0cf6a1905ca11e6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/753ce96ba277ce38806a9842544c4c5341993ae3f1ee86ce42b770c5a8b43e0f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7679265ac037200776ea84f89a2fc8bc0cf89be82da6368a1695d411e0c230cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/77b6ff592ad7467e0d09719f156319c61f6dada12f4b50ed8c9d772ef94862e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/79e651fa688cdd014dd08dfc1a083c896ed0c412cecbd73aca33a371d0c8f0df.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7c044da28f6e47ba247d52cd6fb1d241ab24ce5f817ef00ed2c5995f07b49f47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/81de04d0169653edd7bee2c0ac69009141b17b95635f469e2b2e5ec2b30c9d90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/82c3eb8377b7227bdfa6787258581d1b14b17bad10324db08bbc58f666e94d1d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8676379840fd6bc7c6ced50a392378b0701e50c253c0e818a4b8a1d849a8d6ac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8871f300ef0d06923137ad2bbd08d5f406747a618b0c78810dae662c5a27754d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8ea27c6537431156dc852c244c973f04796bec31572a1d112cd03e7bcbcd9cba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8f313a7fb54d7194cab32d490bd6892e0d96149b51f2458d42b61310d376c873.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/91a24a826c3f4bf5a5b2df2572d52b09620f21f5fa60f788a5d4468826e17b15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/938d6cf7ffbd5aae80b6e1bcfabc3d347b23e05840b858158b77e7ed79cebd2e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/94697eafba92abaeccf629d26d3773d992264b77a57c7dcae6a04d1b79ee942a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/96a5aeb9727b9ed319d40c8fe432876fe20d9b39d410e9672e0dcc02c8c7ea82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/99319a51af188666e9096bc1ce45c03c02d3db93d989526ddb85df098f28e1d0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9a1f7d7ce77ab43c563184e73ab381cb3c79e1f6ecedf93c6788614a68437d09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9ae1ddc1a378c1ec22281eac1762b2eebcf6f156986d515520cea9e2239a77aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/9f8c48c50f77189bfbe66456d4b18e436332c2512a2296605e2626d4e5b4d258.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-a63c37042984f2db3c9ef139c92649ced68180016a724b6db6fc28f906e6c7c5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a40e8a7118b60aae1525012d8dab2c7ab5c386f1c0f197b791e0dfe97b8976ce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a63c37042984f2db3c9ef139c92649ced68180016a724b6db6fc28f906e6c7c5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a63c37042984f2db3c9ef139c92649ced68180016a724b6db6fc28f906e6c7c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a63c37042984f2db3c9ef139c92649ced68180016a724b6db6fc28f906e6c7c5_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a83fe2a1ff511fdad8f31bac75434d938881534ebceb520a04bd065ef521dcf7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/aaf209b79a1a4124f8367a5764a88db5f62a061ebaefad6ebe4bd92e5689c9f3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/abf7452d486b16e159c0a0ec2759a6404b16a054b8b1e95d36ae58f03871a060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ae5b9dd055acba49eea14fdb888750b66b9c5cf421e8b32c3e87b144d08724e7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ae679e413e96d27de407d2ca8df7eea37d71cfe7a232155572176fb86e8b1ea4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ae73c45ef0d210968dd5f2d510d18c61623bef48299790e99b87c74f4d68d3e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/af18a6b18ba54c23d515528b41d7f9789a4e4843ed4b526fcb780077353937bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b07c90af284f847431bf25928dddc624ea0f2f698ebcd7394412437882dcd148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b2d2f37e7066a6d8398f9937950038fed2ea91f20a47e4c04335755ae5cec20d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b6de86431cb0cebe17576d7f3631f418b9856d580cfcd032ad052f3a09577a25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b875141da4578ea72338e996c4242da1e2017ec9a401f09775edb9b3277c5897.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b8935d550edc40269bff2f71df00fd1701d2ece52067e0e8800f48acba086a8f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b99ff482b64210f6d26dcbbfc4919abee62ad6fb9092073822f987241f9c4805.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bad8c117eb26145ca3a6b8a3d4597d5ac79d87425a6ad9fc6c79bbf619e921bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bc0611368c50788054346da606cc50032c0c43f882abdf19cfd3a84be6495943.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bc3294d6cd09e4ba60a7bc92a3ca928c654ba8e7d734e0ecdef1f20c061c7b77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/bdbaf5aa63edc531e1cb7160942e0b8e83dfafe15dec6ccea68403c6c769cd36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c4e29052b137e00e5ef6bc646f2f07c39016ed8c7dff27b28619626fb910fa97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c820a09aa4068dd137d8396b848a2f1d99db31dd30edb92f1b7eb99d3c069158.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c975f78374dcc4ab74a6098a298e434c1e916891cd6868703f0dcdf9dad0cf81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cc9793b165a7a5080e2a79295a1506ca639203592d71741171c93fbbc126e842.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d09e341540b27594fd1a45f97302d2bf94035cb16ba2dd00aee9047de8186a55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d312d5243acf90c018c6d6ee3f5a4a2064e80bb13382da7dd5536783f8838448.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d6823ca00a7905ff4040502de57037dc84c4228a94845a0cec5a50e5aa7e626f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d97a86b2a70e159f23792955cbe4bb184c128ede7a9d99876139bd02428c4bfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d9945de14d5520a0c938b34e067a9d72459b489a0a5f3b1f52e7dfea56a6dc82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/db052521ff7949f6b221f6f43fe74bde5651c509f721a7078a39ff9e89954b3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dfe4d7ea126d8821a11c6ee7823824c09ca3cfcdd186954185bdb67e08891bc5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e02b9c60322501945dbad72f9ece2647bcc80349d8c8c1fb78a9728e8902291d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e0dee07692b6016df513082c1391d0e2b6386aa62e88fe693ef37a01501930cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e190c38a1bdebb4b327438c53085763c26e16818c0a878392b5036d9ad623f97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e2b432746e2bffc40e16726cb629c760f5a6cac9ff9088a6f39b2f56c7e2658c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e3b115fc756681a95c1c4f083a8035efc308c209a5e71f81e559668ffd2b2896.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e4eda0c06f6a6809e6c6775743fe67e878b546b4d52266820210478a5c731dd5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e58443f3c4578445886148b366b2a3040262164434bc4a147883f8e245d964a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/e5b07c6695b5a0e54716d29aea3594fad3c99f2d666d683b1842447533e5ec16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/eacb4a8c06bc988b289e22dad03cd1d7870999cf2bb124886250037183f946d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/eaf933ecb62d5037769dc815573d41dbc4aef815a4c816a7b0f8709dc550e067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ec627f4194d4c9b5c5646d36c6d4ec74268d416f0c10dabe7c86767af296777d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ecf21c0f39397df2a7aac0ae932a5b8b091a5604501885e376da9bc48404212e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ef2379cec6d0cdff94a127bab6f9adf5c5f2862b0cac8a756ac1f8f10e929b53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f333a27f73129039618c21ad2e5c61a5f631844834fbc74a5ca67edfad6a005a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f6db29c4f5286d11462ff0314fcb5c4a11e626f88aeefd62931cfa7ed4a1c25e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f984a4328784104e377eb3381037bdafff986d6c3295a15ea470e26a0ac23b07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fc05a3c6f9af24c573031a66919b92d360d659fedeaf57cf17da1c16d60cb41f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/fedfa87081686338ecfc12bca77c6dcb7ffb4b1a8b67b97bc434c3b9cff38998.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ff2ecda6c113bb375b21f1cabfc93af81ce9fa1a3a8fbf05f6d609ca8647473c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1199244724059852689.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1847119102193041929.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2044917173635883397.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2091355485795734749.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2515753665742205930.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2688117015343088114.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource2732502932641486017.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3101366027057590048.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3303940009546911077.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3452726803760356054.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3746324125237080765.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource401121345092103685.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4023740877597564991.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4328102739125292373.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4354584708729426066.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource455200664935932420.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4606700663596906390.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4645536057726838312.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4936327123664732509.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5085718475378826433.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5390141965527293747.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5562812073103540716.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5570339547769847373.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5861713522347687608.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource594811055711780786.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6049963177611469269.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6060305807146207392.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6110897867241286336.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6118897997875395402.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource615901526088144608.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6502026408283134816.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6513475362379734121.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6904356512182359329.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6970450672131327449.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6993838966847082021.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7262016618093690948.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7311055545880265337.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7334154748006385154.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7387031546452256.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7400602515059196706.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7652072514400272679.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource8145223873644300340.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource819332031506945426.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource8278383740705655956.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource865876828262250075.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource8670416607294031440.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource8839704969129913283.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource896151334821250193.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource9056235296842027166.html.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/IngresarALaPaginaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/IngresarALaPaginaInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/AbrirNavegador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/AbrirNavegador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/IngresarALaPagina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/IngresarALaPagina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/IngresarALaPaginaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/IngresarALaPaginaStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ingresar_a_la_pagina.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ingresar_a_la_pagina.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProyectoAutomatizacionExito" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProyectoAutomatizacionExito" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ProyectoAutomatizacionExito" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tasks/VerCarrito.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interactions/RecorrerLista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/IngresarALaPaginaStepDefinitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/ingresar_a_la_pagina.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="94" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interactions/BuscarElemento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/VerCarritoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/BuscarProductoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tasks/AgregarProducto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tasks/BuscarProducto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/AgregarProductoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/IngresarALaPagina.java" />
+        <option value="$PROJECT_DIR$/src/main/java/userinterface/AbrirNavegador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/IngresarALaPaginaInicial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interactions/RecorrerCheckbox.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/userinterface/BuscarProductoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Constantes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interactions/SeleccionarCheckbox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/userinterface/AgregarProductoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/ExitoData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/questions/VerificarProductoEnCarrito.java" />
+        <option value="$PROJECT_DIR$/src/main/java/questions/VerificarProducto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interactions/MoverMouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interactions/BuscarElemento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/VerCarrito.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/IngresarALaPaginaStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/userinterface/VerCarritoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/AgregarProducto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/BuscarProducto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interactions/RecorrerLista.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/ingresar_a_la_pagina.feature" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="29" />
+    <option name="y" value="10" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="userinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectoAutomatizacionExito" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectoAutomatizacionExito" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interactions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="IngresarALaPagina" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ProyectoAutomatizacionExito.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.IngresarALaPagina" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac6c175a-c1b3-4cda-ac09-1f89edd6342c" name="Default Changelist" comment="" />
+      <created>1571165619489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571165619489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 41m 44s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 43m 57s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 46m 10s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 46m 38s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 47m 31s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 48m 52s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 51m 27s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 53m 56s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 12h 57m 02s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngresarALaPagina - 2019.10.17 at 13h 46m 49s.xml">
+      <configuration name="IngresarALaPagina" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.08510638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34369886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/IngresarALaPagina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-webdriver/2.0.52/f0b2caf1777d0b0b9cfd926571d6ff47a56215e1/serenity-screenplay-webdriver-2.0.52-sources.jar!/net/serenitybdd/screenplay/actions/MoveMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay/2.0.70/71e81fe002052896ee1b055278c680f3df56fdf6/serenity-screenplay-2.0.70-sources.jar!/net/serenitybdd/screenplay/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="160" column="22" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="29" selection-start-line="29" selection-end-line="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interactions/RecorrerCheckbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Constantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interactions/SeleccionarCheckbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ExitoData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="method#setTipoDeElectrodomestico#0;class#ExitoData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/questions/VerificarProducto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/IngresarALaPaginaInicial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/AbrirNavegador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interactions/MoverMouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/VerCarrito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interactions/RecorrerLista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/ingresar_a_la_pagina.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="94" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/IngresarALaPaginaStepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/VerCarritoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interactions/BuscarElemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/BuscarProductoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/AgregarProducto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tasks/BuscarProducto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/userinterface/AgregarProductoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

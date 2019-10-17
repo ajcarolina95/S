@@ -1,32 +1,55 @@
 package stepdefinitions;
 
-import org.openqa.selenium.WebDriver;
-
 import cucumber.api.java.Before;
-import cucumber.api.java.ast.Cuando;
+import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.actors.OnStage;
+import model.ExitoData;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import net.thucydides.core.annotations.Managed;
+import questions.VerificarProducto;
+import tasks.AgregarProducto;
+import tasks.BuscarProducto;
 import tasks.IngresarALaPaginaInicial;
-import userinterface.AbrirNavegador;
+import tasks.VerCarrito;
 
+import java.util.List;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.*;
+import static org.hamcrest.Matchers.equalTo;
 
 public class IngresarALaPaginaStepDefinitions {
-	
-	@Before 
+
+	@Before
 	public void inicio() {
-		OnStage.setTheStage(new OnlineCast());
+		setTheStage(new OnlineCast());
 	}
-	
-	   @Dado("^que (.*) abre la pagina del exito$")
-	   public void queCarolinaAbreElNavegador(String actor) {
-		   OnStage.theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExtio());
-	      }
+
+	@Dado("^que (.*) abre la pagina del exito$")
+	public void queCarolinaAbreLaPaginaDelExito(String actor) {
+		theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExtio());
+	}
+
+	@Cuando("^agrega un electrodomestico al carrito de compras$")
+	public void agregaUnElectrodomesticoAlCarritoDeCompras(List<ExitoData> exitoData) {
+		theActorInTheSpotlight().attemptsTo(BuscarProducto.enElMenu(exitoData));
+		theActorInTheSpotlight().attemptsTo(AgregarProducto.alCarrito(exitoData));
+		theActorInTheSpotlight().attemptsTo(VerCarrito.deLaPagina(exitoData));
+	}
+
+	@Entonces("^verifica que el electrodomestico se encuentre en el carrito de compras$")
+	public void verificaQueElElectrodomesticoSeEncuentreEnElCarritoDeCompras(List<ExitoData>exitoData) {
+		//theActorInTheSpotlight().should(seeThat(VerificarProducto.enCarrito(),equalTo(exitoData.get(0).getVerificarCarrito())));
+	}
+
+	@Cuando("^compra un electrodomestico$")
+	public void compraUnElectrodomestico(List<String> arg1) {
+
+	}
+
+	@Entonces("^verifica mensaje de compra exitosa$")
+	public void verificaMensajeDeCompraExitosa() {
+
+	}
 
 }
