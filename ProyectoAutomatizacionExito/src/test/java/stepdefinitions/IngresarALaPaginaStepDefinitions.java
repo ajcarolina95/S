@@ -14,9 +14,7 @@ import tasks.VerCarrito;
 
 import java.util.List;
 
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
-import static org.hamcrest.Matchers.equalTo;
 
 public class IngresarALaPaginaStepDefinitions {
 
