@@ -1,32 +1,40 @@
 package stepdefinitions;
 
-import org.openqa.selenium.WebDriver;
 
 import cucumber.api.java.Before;
-import cucumber.api.java.ast.Cuando;
+import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
-import cucumber.api.java.es.Entonces;
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.actors.OnlineCast;
-import net.thucydides.core.annotations.Managed;
-import tasks.IngresarALaPaginaInicial;
-import userinterface.AbrirNavegador;
 
+import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+
+import cucumber.api.java.es.Entonces;
+import net.serenitybdd.screenplay.actors.OnlineCast;
+import tasks.IngresarALaPaginaInicial;
 
 
 public class IngresarALaPaginaStepDefinitions {
-	
-	@Before 
-	public void inicio() {
-		OnStage.setTheStage(new OnlineCast());
-	}
-	
-	   @Dado("^que (.*) abre la pagina del exito$")
-	   public void queCarolinaAbreElNavegador(String actor) {
-		   OnStage.theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExtio());
-	      }
 
+    @Before
+    public void inicio() {
+        setTheStage(new OnlineCast());
+    }
+
+    @Dado("^que (.*) abre la pagina del exito$")
+    public void queCarolinaAbreElNavegador(String actor) {
+        theActorCalled(actor).wasAbleTo(IngresarALaPaginaInicial.delExtio());
+    }
+
+
+    @Cuando("^que el usurio selecciona un producto$")
+    public void queElUsurioSeleccionaUnProducto() {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Entonces("^lo ingresa al carrito$")
+    public void loIngresaAlCarrito() {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
 }

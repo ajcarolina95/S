@@ -81,6 +81,13 @@ local.properties
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Serenity bdd reportes 
+target/
+
+# Gitignore
+.gitignore
+
+
 # Generated files
 .idea/**/contentModel.xml
 
@@ -203,3 +210,4 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/java,gradle,eclipse,intellij
+

@@ -1,5 +1,6 @@
 package runners;
 
+
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -10,7 +11,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(features = "src/test/resources/features/ingresar_a_la_pagina.feature",
 				 glue = "stepdefinitions",
 				 snippets = SnippetType.CAMELCASE)
-
 public class IngresarALaPagina {
 
 }
